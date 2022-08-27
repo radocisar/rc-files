@@ -1,0 +1,8 @@
+Open Jupyter Notebook from virtual environment :
+After activating the virtual environment run this from the virtual env folder:
+  * python -m pip install ipykernel - even if virtual environment got installed with system packages included (with ipykernel installed)
+  * ipython kernel install --user --name=.venv
+  * then load jupyter notebook normally
+  * then open new notebook by selecting the virtual environment kernel
+
+If packages cannot be loaded, make sure the kernel.json file in the kernel's path points to the virtual env's python. E.g.: C:\Users\rcisar\AppData\Roaming\jupyter\kernels\.venv
