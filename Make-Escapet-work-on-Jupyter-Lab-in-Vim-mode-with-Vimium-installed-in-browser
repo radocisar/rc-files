@@ -1,0 +1,7 @@
+To make Escape / Esc work on Jupyter lab in vim mode with Vimium installed in the browser:
+
+add following to the Vimium's options (right click on Vimium option among the extensions):
+
+Custom key
+mappings:
+map <escape> passNextKey
