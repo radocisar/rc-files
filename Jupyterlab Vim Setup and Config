@@ -1,0 +1,35 @@
+// Config:
+//   * put this into vimrc within Jupyterlab (Settings > Advanced Settings Editor (Ctrl+,) and selecting the settings for vimrc (select "JSON Settings Editor")
+// Exclude following in Vimium:
+//   * a, b, dd, d, j, k
+  
+{
+    // imap commands
+    // [lhs, rhs] - e.g. "imap": [["ii", "<Esc>"]]
+    "imap": [
+    ["gg", "<Esc>"]
+    ],
+    // inoremap commands
+    // [lhs, rhs]
+    "inoremap": [
+    ],
+    // nmap commands
+    // [lhs, rhs]
+    "nmap": [],
+    // nnoremap commands
+    // [lhs, rhs]
+    "nnoremap": [
+        {}
+    ],
+    "unnamedplus": false,
+    // vmap commands
+    // [lhs, rhs]
+    "vmap": [
+        ["gg", "<Esc>"]
+    ],
+    // vnoremap commands
+    // [lhs, rhs]
+    "vnoremap": [
+        {}
+    ]
+}
