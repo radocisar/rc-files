@@ -1,3 +1,19 @@
+// Jupyterlab Vim:
+    
+//   vim support in the notebook by ianhi · Pull Request #9068 · jupyterlab/jupyterlab (github.com)
+    
+//   In the meantime you still can use vim in jlab! The relevant extensions are:
+//   https://github.com/axelfahy/jupyterlab-vim -provides vim in the notebook
+//   https://github.com/ianhi/jupyterlab-vimrc
+       
+//               Install Jupyterlab >3
+//               Install nodejs
+//               Install npm
+//               Install jupyterlab_vim vi:pip install jupyterlab-vim
+//               Install jupyterlab_vimrc via:pip install jupyterlab-vimrc
+//               Setup jupyterlab-vimrc as per: ianhi/jupyterlab-vimrc: add a basic vimrc to jupyterlab vim (github.com)
+//               Add these rules to browser’s vim extension: a, b, dd, <esc>, j, k
+
 // Config:
 //   * put this into vimrc within Jupyterlab (Settings > Advanced Settings Editor (Ctrl+,) and selecting the settings for vimrc (select "JSON Settings Editor")
 // Exclude following in Vimium:
@@ -9,13 +25,16 @@
     "imap": [
     ["gg", "<Esc>"]
     ],
+
     // inoremap commands
     // [lhs, rhs]
     "inoremap": [
     ],
+
     // nmap commands
     // [lhs, rhs]
     "nmap": [],
+
     // nnoremap commands
     // [lhs, rhs]
     "nnoremap": [
@@ -27,9 +46,57 @@
     "vmap": [
         ["gg", "<Esc>"]
     ],
+
     // vnoremap commands
     // [lhs, rhs]
     "vnoremap": [
         {}
+    ]
+}
+
+Exclude following in Vimium:
+a, b, dd, d, j, k
+put this into Keyboard Shortcuts within Jupyterlab (Settings > Advanced Settings Editor (Ctrl+,) and selecting the settings for Keyboard Shortcuts (select "JSON Settings Editor")
+{
+    "shortcuts": [
+        {
+            "command": "application:activate-next-tab",
+            "keys": [
+                "Ctrl ]"
+            ],
+            "selector": "body"
+        },
+    {
+            "command": "application:activate-previous-tab",
+            "keys": [
+                "Ctrl ["
+            ],
+            "selector": "body"
+        },
+    {
+            "selector": ".jp-NotebookPanel[data-jp-vim-mode='true'] .jp-Notebook.jp-mod-editMode",
+            "keys": [
+                "Ctrl ["
+            ],
+            "command": "vim:leave-insert-mode",
+            "disabled": true
+        }
+    ]
+}
+
+put this into Notebook Vim within Jupyterlab (Settings > Advanced Settings Editor (Ctrl+,) - with this, one should not been the vimrc config from above
+{"extraKeybindings": [
+    {
+            "selector": ".jp-NotebookPanel[data-jp-vim-mode='true'] .jp-Notebook.jp-mod-editMode",
+            "keys": "<Esc>",
+            "command": "gg",
+            "context": "insert"
+        },
+    {
+            "selector": ".jp-NotebookPanel[data-jp-vim-mode='true'] .jp-Notebook.jp-mod-editMode",
+            "keys": "<Esc>",
+            "command": "gg",
+            "context": "visual"
+        }
     ]
 }
