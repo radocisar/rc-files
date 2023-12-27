@@ -1,63 +1,77 @@
 {
-    "files.autoSave": "off",
-    "workbench.settings.openDefaultSettings": true,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "explorer.confirmDelete": false,
-    // "terminal.integrated.shell.windows":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
-    "editor.lineNumbers": "relative",
-    "vim.leader": "<space>",
-    "vim.useSystemClipboard": true,
-    "vim.normalModeKeyBindings": [
-        {
-            "before": ["C-w"],
-            "after": ["<C-F4>"]
-        }
-    ],
-    "vim.insertModeKeyBindings": [
-     {
-         "before": ["g", "g"],
-         "after": ["<esc>"]
-     }
-    ],
-    //"vim.normalModeKeyBindings": [
-    // {
-    //     "before": ["g", "g"],
-    //     "after": ["<esc>"]
-    // }
-    //],
-    "vim.visualModeKeyBindings": [
-     {
-         "before": ["g", "g"],
-         "after": ["<esc>"]
-     }
-    ],
-    "vim.replaceModeKeyBindings": [
-     {
-         "before": ["g", "g"],
-         "after": ["<esc>"]
-     }
-    ],
-    //"vim.normalModeKeyBindings": [
-    //    {
-    //        "before": ["j"],
-    //        "after": ["gj"]
-    //    }
-    //],
-    //"vim.normalModeKeyBindings": [
-    //    {
-    //        "before": ["k"],
-    //        "after": ["gk"]
-    //    }
-    //],
-    "vim.handleKeys": {
-        "<C-w>": false,
-        "<C-c>": false,
-    },
-    "vim.hlsearch": true,
-    "jupyter.sendSelectionToInteractiveWindow": false,
-    "jupyter.alwaysTrustNotebooks": true,
-    "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": -1,
-    "python.defaultInterpreterPath": "C:\\Program Files\\Python38\\python.exe",
-    "vsicons.dontShowNewVersionMessage": true
+    "files.autoSave": "off",
+    "workbench.settings.openDefaultSettings": true,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "explorer.confirmDelete": false,
+    // "terminal.integrated.shell.windows":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    "editor.lineNumbers": "relative",
+    "vim.leader": "<space>",
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["C-w"],
+            "after": ["<C-F4>"]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+     {
+         "before": ["g", "g"],
+         "after": ["<esc>"]
+     }
+    ],
+    //"vim.normalModeKeyBindings": [
+    // {
+    //     "before": ["g", "g"],
+    //     "after": ["<esc>"]
+    // }
+    //],
+    "vim.visualModeKeyBindings": [
+     {
+         "before": ["g", "g"],
+         "after": ["<esc>"]
+     }
+    ],
+    "vim.replaceModeKeyBindings": [
+     {
+         "before": ["g", "g"],
+         "after": ["<esc>"]
+     }
+    ],
+    //"vim.normalModeKeyBindings": [
+    //    {
+    //        "before": ["j"],
+    //        "after": ["gj"]
+    //    }
+    //],
+    //"vim.normalModeKeyBindings": [
+    //    {
+    //        "before": ["k"],
+    //        "after": ["gk"]
+    //    }
+    //],
+    "vim.handleKeys": {
+        "<C-w>": false,
+        "<C-c>": false,
+    },
+    "vim.hlsearch": true,
+    "jupyter.alwaysTrustNotebooks": true,
+    "workbench.iconTheme": "vscode-icons",
+    "python.defaultInterpreterPath": "C:\\Python310\\python.exe",
+    "vsicons.dontShowNewVersionMessage": true,
+    "notebook.output.textLineLimit": 20,
+    "git.openRepositoryInParentFolders": "never",
+    "jupyter.interactiveWindow.textEditor.executeSelection": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.lineNumbers": "on",
+    "breadcrumbs.enabled": false,
+    "notebook.outputScrolling": true,
+    "notebook.formatOnSave.enabled": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "python.formatting.provider": "black",
 }
