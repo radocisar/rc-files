@@ -1,2 +1,2 @@
-alias lsla='ls -la --color'
-alias ls='ls --color'
+alias la='ls -ltra --color'
+alias l='ls -ltr --color'
