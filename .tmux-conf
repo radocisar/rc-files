@@ -1,13 +1,18 @@
 # remap prefix from 'C-b' to 'C-Space'
-unbind C-b
-set-option -g prefix C-Space
-bind-key C-Space send-prefix
+#unbind C-b
+#set-option -g prefix C-Space
+#bind-key C-Space send-prefix
+#set -g prefix C-Space
+#bind C-Space send-prefix
 
 # split panes using | and -
 #   bind | split-window -h
 # bind - split-window -v
 # unbind '"'
 # unbind %
+
+# set login shell to bash for tmux
+set-option -g default-shell "/bin/bash"
 
 # reload config file (change file location to your the tmux.conf you want to use)
 bind r source-file ~/.tmux.conf
@@ -26,11 +31,6 @@ set -g default-terminal "xterm"
 
 # No bells at all
 set -g bell-action none
-
-# Change the prefix key to C-a
-set -g prefix C-Space
-unbind C-b
-bind C-Space send-prefix
 
 # Turn the mouse on, but without copy mode drng
 set -g mouse on
