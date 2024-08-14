@@ -51,6 +51,10 @@ bind -r j select-pane -D
 bind -r h select-pane -L
 bind -r l select-pane -R
 
+#change switching to next and previous windows
+bind -n C-n next
+bind -n C-p prev
+
 # and now unbind keys
 unbind Up
 unbind Down
