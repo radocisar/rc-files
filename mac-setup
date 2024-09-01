@@ -14,3 +14,5 @@
 4. Kayboard modifier key remaps within System Settings:
   apple internal keyboard settings:
     * Globe () key -> Command
+5. To enable press and hold "j" and "k" key movement - https://github.com/VSCodeVim/Vim/issues/8391
+  run this - defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
