@@ -17,3 +17,22 @@
 5. To enable press and hold "j" and "k" key movement - https://github.com/VSCodeVim/Vim/issues/8391
   run this - defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 6. Keyboard - USPC
+7. Keyboard settings:
+  * Delay until repeat - 4/6
+  * Key repeat rate - fast
+8. Trackpad settings:
+  * "Point & Click" tab:
+    * Tracking speed - 6/10
+    * Click - light
+    * Tap to click - on
+    * Natural scrolling - on
+  * "Scroll & Zoom" tab:
+    * everything on
+  * "More Gestures" tab:
+    * Swipe between pages - Scroll Left or Right with Two Fingers
+    * Swipe between full screen applications - Swipe Left or Right with Four Fingers
+    * Notification Center - on
+    * Mission Control - Swipe Up with Four Fingers
+    * App expose - Swipe Down with Four Fingers
+    * Launchpad - off
+    * Show Desktop - off
