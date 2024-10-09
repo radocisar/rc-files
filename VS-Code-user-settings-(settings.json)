@@ -74,4 +74,6 @@
         "editor.formatOnSave": true
     },
     "python.formatting.provider": "black",
+    "notebook.output.scrolling": true,
+    "editor.minimap.enabled": false,
 }
