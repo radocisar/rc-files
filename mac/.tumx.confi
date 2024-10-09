@@ -1,0 +1,60 @@
+# remap prefix from 'C-b' to 'C-Space'
+#unbind C-b
+#set-option -g prefix C-Space
+#bind-key C-Space send-prefix
+
+# split panes using | and -
+#   bind | split-window -h
+# bind - split-window -v
+# unbind '"'
+# unbind %
+
+set-option -g default-shell "/bin/bash"
+
+# reload config file (change file location to your the tmux.conf you want to use)
+bind r source-file ~/.tmux.conf
+
+# switch panes using Alt-arrow without prefix
+bind -n M-h select-pane -L
+bind -n M-l select-pane -R
+bind -n M-k select-pane -U
+bind -n M-j select-pane -D
+
+# Enable mouse mode
+# set -g mouse on
+source $HOME/.vimrc
+
+set -g default-terminal "xterm"
+
+# No bells at all
+set -g bell-action none
+
+# Change the prefix key to C-a
+#set -g prefix C-Space
+#unbind C-b
+#bind C-Space send-prefix
+
+# Turn the mouse on, but without copy mode drng
+set -g mouse on
+unbind -n MouseDrag1Pane
+unbind -Tcopy-mode MouseDrag1Pane
+
+# Disable mouse mode (to enable normal LINUX mouse behavior)
+# set -g mouse off
+# vim-like pane resizing
+bind -r C-k resize-pane -U
+bind -r C-j resize-pane -D
+bind -r C-h resize-pane -L
+bind -r C-l resize-pane -R
+
+# vim-like pane switching
+bind -r k select-pane -U
+bind -r j select-pane -D
+bind -r h select-pane -L
+bind -r l select-pane -R
+
+#change switching to next and previous windows
+bind -n C-n next
+bind -n C-p prev
+
+# and now unbind keys
