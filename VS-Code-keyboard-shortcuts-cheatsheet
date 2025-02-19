@@ -1,11 +1,11 @@
-ctrl + space + % - horizontal split
-ctrl + space + " - vertical split
-ctrl + space + l - move editor to the right
-ctrl + space + h - move editor to the left
-ctrl + space + j - move editor to the down
-ctrl + space + k - move editor to the up
-ctrl + space + t - open new terminal
-ctrl + space + c - open new file
+ctrl + b + % - horizontal split
+ctrl + b + " - vertical split
+ctrl + b + l - move editor to the right
+ctrl + b + h - move editor to the left
+ctrl + b + j - move editor to the down
+ctrl + b + k - move editor to the up
+ctrl + b + t - open new terminal
+ctrl + b + c - open new file
 ctrl + n - move to the next tab (editor)
 ctrl + p - move to the previous tab (editor)
 ctrl + e - files explorer search
