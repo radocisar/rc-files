@@ -16,7 +16,7 @@ set nowritebackup
 set incsearch
 set hlsearch
 
-let mapleasder = " "
+let mapleasder = "\<C-b>"
 
 imap gg <Esc>
 noremap j gj
