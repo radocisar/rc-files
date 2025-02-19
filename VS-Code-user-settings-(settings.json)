@@ -5,7 +5,7 @@
     "explorer.confirmDelete": false,
     // "terminal.integrated.shell.windows":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
     "editor.lineNumbers": "relative",
-    "vim.leader": "<space>",
+    "vim.leader": "C-b",
     "vim.useSystemClipboard": true,
     "vim.normalModeKeyBindings": [
         {
