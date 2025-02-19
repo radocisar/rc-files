@@ -123,7 +123,7 @@
         "command": "-workbench.action.nextEditor"
     },
     {
-        "key": "ctrl+space shift+5",
+        "key": "ctrl+b shift+5",
         "command": "workbench.action.splitEditor"
     },
     {
@@ -131,15 +131,15 @@
         "command": "-workbench.action.splitEditor"
     },
     {
-        "key": "ctrl+space shift+5",
+        "key": "ctrl+b shift+5",
         "command": "workbench.action.moveEditorToRightGroup"
     },
     {
-        "key": "ctrl+space shift+'",
+        "key": "ctrl+b shift+'",
         "command": "workbench.action.moveEditorToBelowGroup"
     },
     {
-        "key": "ctrl+space l",
+        "key": "ctrl+b l",
         "command": "workbench.action.focusRightGroup"
     },
     {
@@ -147,7 +147,7 @@
         "command": "-workbench.action.focusRightGroup"
     },
     {
-        "key": "ctrl+space h",
+        "key": "ctrl+b h",
         "command": "workbench.action.focusLeftGroup"
     },
     {
@@ -155,7 +155,7 @@
         "command": "-workbench.action.focusLeftGroup"
     },
     {
-        "key": "ctrl+space k",
+        "key": "ctrl+b k",
         "command": "workbench.action.focusAboveGroup"
     },
     {
@@ -163,7 +163,7 @@
         "command": "-workbench.action.focusAboveGroup"
     },
     {
-        "key": "ctrl+space j",
+        "key": "ctrl+b j",
         "command": "workbench.action.focusBelowGroup"
     },
     {
@@ -171,11 +171,11 @@
         "command": "-workbench.action.focusBelowGroup"
     },
     {
-        "key": "ctrl+space t",
+        "key": "ctrl+b t",
         "command": "workbench.action.createTerminalEditor"
     },
     {
-        "key": "ctrl+space c",
+        "key": "ctrl+b c",
         "command": "welcome.showNewFileEntries"
     },
     {
