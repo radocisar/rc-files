@@ -13,7 +13,7 @@ set nowritebackup
 set incsearch
 set hlsearch
 
-let mapleader="C-b"
+let mapleader=" "
 
 inoremap gg <Esc>
 nnoremap j gj
