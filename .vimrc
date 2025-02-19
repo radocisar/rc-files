@@ -14,7 +14,7 @@ set incsearch
 set hlsearch
 set belloff=all
 
-let mapleader=" "
+let mapleader="\<C-b>"
 
 inoremap gg <Esc>
 nnoremap j gj
